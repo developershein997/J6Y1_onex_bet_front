@@ -9,6 +9,6 @@ export default defineConfig({
     react()
     ],
   build: {
-    outDir: 'a3h1_ttt_build',
+    outDir: 'dist',
   },
 })
