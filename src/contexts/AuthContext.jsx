@@ -34,7 +34,7 @@ const AuthContextProvider = ({ children }) => {
     useEffect(() => {
         if (token) {
             const interval = setInterval(() => {
-                fetch('https://lion11.online/api/user', {
+                fetch('https://onexbetmmsite.online/api/user', {
                     headers: {
                         'Authorization': `Bearer ${token}`,
                         'Accept': 'application/json',
